@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: ui.screenplay.automationtesting.SelectComponentofHospital
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 291.219 s <<< FAILURE! - in ui.screenplay.automationtesting.SelectComponentofHospital
+select_appointment_scheduling on select_appointment_scheduling(ui.screenplay.automationtesting.SelectComponentofHospital)(ui.screenplay.automationtesting.SelectComponentofHospital)  Time elapsed: 286.216 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=83.0.4103.61)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ECUIOMSHS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\HENRYS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 114f3d590968566d0471106c8f9a8926
+*** Element info: {Using=xpath, value=//*[@id="page-wrapper"]/div/div[2]/div/div/div/div/div[1]/div/a[6]}
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ECUIOMSHS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: driver.version: unknown
+	at ui.screenplay.automationtesting.SelectComponentofHospital.select_appointment_scheduling(SelectComponentofHospital.java:50)
+

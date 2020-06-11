@@ -1,0 +1,2 @@
+mvn clean verify -Dtest=ui.screenplay.automationtesting.LoginPage serenity:aggregate
+mvn clean verify -Dtest=ui.screenplay.automationtesting.RegisterPage serenity:aggregate
